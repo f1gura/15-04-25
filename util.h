@@ -1,31 +1,19 @@
 #include <stdio.h>
 
-int diametro(void) {
-  
-    printf("digite o raio: ");
-    double x;
-    scanf("%d",x);
+double diametro(double raio) {
 
-  return 2 * x;
+  return raio * 2;
 }
 
 
 
-int circunferencia(void) {
-  
-    printf("digite o raio: ");
-    double x;
-    scanf("%d",x);
+double circunferencia(double raio) {
 
-  return  3.14 * 2 * x;
+  return  3.14 * 2 * raio;
 }
 
 
-int area(void) {
-  
-    printf("digite o raio: ");
-    double x;
-    scanf("%d",x);
+double area(double raio) {
 
-  return  3.14 * (x * x);
+  return  3.14 * (raio * raio);
 }
