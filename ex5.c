@@ -12,11 +12,18 @@ int main(){
     printf("escreva um numero: ");
     scanf("%d",&b);
 
-    
+
+if (igual(a,b) == 1){
+
+    printf("iguais:  %d\n", igual(a,b));
+
+}else{
 
     printf("iguais:  %d\n", igual(a,b));
     printf("maior:  %d\n",maior(a,b));
     printf("menor:  %d\n", menor(a,b));
+
+    }
 
 
 
